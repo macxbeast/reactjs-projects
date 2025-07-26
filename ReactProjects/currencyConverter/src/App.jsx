@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { InputBox } from './components'       // bydefault index file call hoti hai isliye /index.js nahi lagaya fir bhi chal jaayega
+import { InputBox } from './components'       // bydefault index file call hoti hai isliye /index.js nahi lagaya fir bhi chal jaayega 
+//or import InputBox from './components/InputBox.jsx'    
 import useCurrencyInfo from './customHooks/useCurrencyInfo.js'                                              
 function App() {                              
 
@@ -64,7 +65,7 @@ function App() {
                                 currencyOptions={options}
                                 onCurrencyChange={(currency)=> setTo(currency)}
                                 selectCurrency={to}
-                                amountDisable
+                                amountDisable={true}
                             />
                         </div>
                         <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
