@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { InputBox } from './components'       // bydefault index file call hoti hai isliye /index.js nahi lagaya fir bhi chal jaayega 
+import { InputBox } from './components'       // bydefault index file call hoti hai isliye /index.js nahi lagaya, but lagane ke baad bhi chal jaayega 
 //or import InputBox from './components/InputBox.jsx'    
 import useCurrencyInfo from './customHooks/useCurrencyInfo.js'                                              
 function App() {                              
